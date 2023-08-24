@@ -1,14 +1,11 @@
-import Image from "next/image";
-import Header from "./UI/Header.jsx";
-import Footer from "./UI/Footer.jsx";
-import Hero from "./Components/Landing/Hero.jsx";
+import Landing from "./Components/Landing/Landing.jsx";
+import Rotating from "./Components/Rotating/Rotating.jsx";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <Hero />
-      <Footer />
+    <main className="flex flex-col gap-8 p-8">
+      <Landing />
+      <Rotating />
     </main>
   );
 }
