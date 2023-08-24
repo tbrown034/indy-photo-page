@@ -11,6 +11,7 @@ export default function Landing() {
         <LeadImage />
       </div>
       <Bio />
+      <div className="flex items-center justify-center "></div>
     </section>
   );
 }
