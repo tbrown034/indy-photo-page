@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section className="flex flex-col justify-between gap-4">
       <div className="sm:text-center">
-        <h1 className="text-6xl font-bold ">Meet Indy Pup</h1>
+        <h1 className="text-6xl font-bold ">Meet Indy</h1>
         <h2 className="text-3xl font-semibold ">
-          He's the best boy in the whole wide world
+          He's the Goodest Boy in the Whole Wide World.
         </h2>{" "}
       </div>
 
