@@ -7,7 +7,10 @@ export default function Home() {
     <main className="flex flex-col gap-4 p-4 px-8 sm:px-12">
       <Hero />
       <Bio />
-      <Holder />
+      <div id="holder">
+        {" "}
+        <Holder />
+      </div>
     </main>
   );
 }
