@@ -1,12 +1,14 @@
+import React, { useState, useEffect } from "react";
+import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
+import { imagesRef } from "../../utils/firebase";
 import Image from "next/image";
-import Image2 from "../../../public/Images/Image2.jpeg";
 
-export default function RotatingImage() {
+export default function RotatingImage({ setImageUrl, imageUrl }) {
   return (
     <section className="relative w-full h-[500px] overflow-hidden  rounded-3xl ">
       <Image
-        src={Image2}
-        alt="first Indy photo"
+        src={imageUrl}
+        alt="Random Indy photo"
         layout="fill"
         objectFit="cover"
       />
