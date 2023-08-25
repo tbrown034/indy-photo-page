@@ -6,8 +6,11 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4 p-4 px-8 sm:px-12">
       <Hero />
-      <Bio />
-      <div id="holder">
+      <div id="bio">
+        <Bio />
+      </div>
+
+      <div id="Holder">
         {" "}
         <Holder />
       </div>
