@@ -1,13 +1,13 @@
-import Landing from "./Components/Landing/Landing.jsx";
+import Hero from "./Components/Landing/Hero.jsx";
 import Rotating from "./Components/Rotating/Rotating.jsx";
-import Footer from "./UI/Footer.jsx";
+import Bio from "./Components/Landing/Bio.jsx";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-8 p-8">
-      <Landing />
+    <main className="flex flex-col gap-4 p-4 px-8 sm:px-12">
+      <Hero />
+      <Bio />
       <Rotating />
-      <Footer />
     </main>
   );
 }

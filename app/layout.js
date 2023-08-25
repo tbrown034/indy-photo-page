@@ -1,4 +1,6 @@
 import "./globals.css";
+import Header from "./UI/Header";
+import Footer from "./UI/Footer";
 
 export const metadata = {
   title: "Indy",
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-gray-800 bg-emerald-100">{children}</body>
+      <body className="text-gray-800 bg-emerald-100">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
