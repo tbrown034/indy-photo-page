@@ -4,7 +4,7 @@ import Holder from "./Components/RandomPhoto/Holder.jsx";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-4">
+    <main className="flex flex-col gap-4 p-4">
       <div>
         <Hero />
       </div>
