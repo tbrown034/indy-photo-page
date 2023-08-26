@@ -4,7 +4,9 @@ export default function Header() {
   return (
     <header className="p-4 ">
       <div className="container flex items-center justify-between mx-auto">
-        <div className="text-2xl font-bold text-emerald-600">Home</div>
+        <Link href="/" className="text-2xl font-bold text-emerald-600">
+          Home
+        </Link>
         <nav className="flex gap-6 font-semibold">
           <Link
             href="#Holder"
