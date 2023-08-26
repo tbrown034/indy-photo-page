@@ -4,17 +4,17 @@ export default function Footer() {
       <div className="container flex flex-col items-center justify-between mx-auto md:flex-row">
         <div className="mb-4 text-center md:text-left md:mb-0">
           <h3 className="mb-2 text-xl font-bold">About</h3>
-          <p>Your short biography or a brief about your portfolio.</p>
+          <p>Website created by Trevor Brown</p>
         </div>
         <div className="mb-4 text-center md:mb-0">
           <h3 className="mb-2 text-xl font-bold">Contact</h3>
-          <p>Email: your-email@example.com</p>
+
           <p>Phone: 123-456-7890</p>
         </div>
         <div className="text-center">
           <h3 className="mb-2 text-xl font-bold">Follow Me</h3>
           <a
-            href="https://github.com/username"
+            href="https://github.com/tbrown034"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -22,7 +22,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/username"
+            href="https://www.linkedin.com/in/trevorabrown/"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -30,7 +30,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com/username"
+            href="https://twitter.com/tbrownOKC"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"

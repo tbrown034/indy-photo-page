@@ -53,7 +53,7 @@ export default function Holder() {
         <LeftIcon />
         <p className="text-lg font-semibold">Go Back</p>
       </button>
-      <p className="text-lg font-medium">{fileName}</p>
+      <code className="text-lg font-medium">File Name: {fileName}</code>
     </section>
   );
 }
