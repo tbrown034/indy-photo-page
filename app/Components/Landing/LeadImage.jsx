@@ -7,9 +7,12 @@ export default function LeadImage() {
       <Image
         src={Hero}
         alt="first Indy photo"
-        layout="fill"
-        objectFit="cover"
+        fill={true}
         priority={true}
+        style={{
+          objectFit: "cover", // Ensures that the image fits within its container
+          borderRadius: "20%", // Makes the image fully round
+        }}
       />
     </section>
   );

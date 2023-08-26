@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function Photo({ src }) {
   return (
-    <section className="relative w-96 h-96">
+    <section className="relative h-[500px] w-full overflow-hidden rounded-3xl">
+      {" "}
       <Image
         src={src}
         alt="Random Indy photo"

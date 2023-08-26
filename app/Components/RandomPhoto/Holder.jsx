@@ -36,7 +36,7 @@ export default function Holder() {
   const fileName = `Indy${currentIndex + 1}.jpeg`;
 
   return (
-    <section className="flex flex-col items-center justify-center gap-4 p-8 rounded-2xl ">
+    <section className="flex flex-col items-center justify-center gap-4 py-4 rounded-2xl ">
       <button
         onClick={handleNextPicture}
         className="flex items-center justify-center gap-4 p-4 px-8 text-sm sm:text-lg bg-emerald-300 rounded-3xl hover:bg-emerald-400 active:bg-emerald-600"
@@ -47,7 +47,7 @@ export default function Holder() {
       <Photo src={images[currentIndex]} fileName={fileName} />
       <button
         onClick={handlePreviousPicture}
-        className="flex items-center justify-center gap-4 p-4 px-8 text-lg bg-emerald-300 rounded-3xl hover:bg-emerald-400 active:bg-emerald-600"
+        className="flex items-center justify-center gap-4 p-4 text-lg bg-emerald-300 rounded-2xl hover:bg-emerald-400 active:bg-emerald-600"
         disabled={previousIndices.length === 0}
       >
         <LeftIcon />
