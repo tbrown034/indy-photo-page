@@ -11,7 +11,7 @@ export default function Bio() {
       </div>
       <div className="flex flex-col p-4 rounded-lg shadow bg-emerald-100">
         <h3 className="mb-2 text-2xl text-emerald-600">Hobbies</h3>
-        <p>Dog Parks, Pup Cups, Sleeping</p>
+        <p>Dog Parks, Pup Cups, Sleeping, Being a Biddy</p>
       </div>
     </section>
   );

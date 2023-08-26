@@ -4,7 +4,7 @@ import { DownIcon } from "../Icons/icons";
 export default function Hero() {
   return (
     <section className="flex flex-col justify-between gap-4">
-      <div className="sm:text-center">
+      <div className="flex flex-col gap-2 sm:text-center">
         <h1 className="text-6xl font-bold ">Meet Indy</h1>
         <h2 className="text-3xl font-semibold ">
           He&apos;s the Goodest Boy in the Whole Wide World.
