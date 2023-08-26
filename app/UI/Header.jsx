@@ -12,7 +12,7 @@ export default function Header() {
             href="#Holder"
             className="text-gray-700 cursor-pointer hover:text-emerald-600"
           >
-            Random Pup Pics
+            Pup Pics
           </Link>
           <Link
             href="#bio"
