@@ -39,7 +39,7 @@ export default function Holder() {
     <section className="flex flex-col items-center justify-center gap-4 rounded-2xl ">
       <button
         onClick={handleNextPicture}
-        className="flex items-center justify-center gap-4 p-4 px-8 text-lg bg-emerald-300 rounded-3xl hover:bg-emerald-400 active:bg-emerald-600"
+        className="flex items-center justify-center gap-4 p-4 px-8 bg-emerald-300 rounded-3xl hover:bg-emerald-400 active:bg-emerald-600"
       >
         <p className="text-lg font-semibold">Next Picture</p>
         <RightIcon />
